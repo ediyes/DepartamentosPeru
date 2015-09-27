@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map[]>
+<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+
+<Parameters>
+  <Parameter name="attribution"><![CDATA[<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>]]></Parameter>
+  <Parameter name="bounds">-180,-85.0511,180,85.0511</Parameter>
+  <Parameter name="center">-77.0142,-9.8065,6</Parameter>
+  <Parameter name="format">png8:m=h</Parameter>
+  <Parameter name="maxzoom">22</Parameter>
+  <Parameter name="minzoom">0</Parameter>
+  <Parameter name="name"><![CDATA[Peru-dpto]]></Parameter>
+  <Parameter name="source"><![CDATA[mapbox:///ediyes.bec60246,ediyes.2bee470d]]></Parameter>
+</Parameters>
+
+
+<Style name="PER_adm1" filter-mode="first">
+  <Rule>
+    <Filter>([NAME_1] = 'Ucayali')</Filter>
+    <LineSymbolizer stroke="#2929ef" />
+    <PolygonSymbolizer fill="#0df6f6" />
+  </Rule>
+  <Rule>
+    <Filter>([NAME_1] = 'Tumbes')</Filter>
+    <LineSymbolizer stroke="#2929ef" />
+    <PolygonSymbolizer fill="#404ceb" />
+  </Rule>
+  <Rule>
+    <Filter>([NAME_1] = 'Tacna')</Filter>
+    <LineSymbolizer stroke="#2929ef" />
+    <PolygonSymbolizer fill="#308339" />
+  </Rule>
+  <Rule>
+    <Filter>([NAME_1] = 'San Martín')</Filter>
+    <LineSymbolizer stroke="#2929ef" />
+    <PolygonSymbolizer fill="#308991" />
+  </Rule>
+  <Rule>
+    <Filter>([NAME_1] = 'Puno')</Filter>
+    <LineSymbolizer stroke="#2929ef" />
+    <PolygonSymbolizer fill="#9ca5bb" />
+  </Rule>
+  <Rule>
+    <Filter>([NAME_1] = 'Piura')</Filter>
+    <LineSymbolizer stroke="#2929ef" />
+    <PolygonSymbolizer fill="#e445aa" />
+  </Rule>
+  <Rule>
+    <Filter>([NAME_1] = 'Pasco')</Filter>
+    <LineSymbolizer stroke="#2929ef" />
+    <PolygonSymbolizer fill="#c62454" />
+  </Rule>
+  <Rule>
+    <Filter>([NAME_1] = 'Moquegua')</Filter>
+    <LineSymbolizer stroke="#2929ef" />
+    <PolygonSymbolizer fill="#f2a9ea" />
+  </Rule>
+  <Rule>
+    <Filter>([NAME_1] = 'Madre de Dios')</Filter>
+    <LineSymbolizer stroke="#2929ef" />
+    <PolygonSymbolizer fill="#c1afc9" />
+  </Rule>
+  <Rule>
+    <Filter>([NAME_1] = 'Loreto')</Filter>
+    <LineSymbolizer stroke="#2929ef" />
+    <PolygonSymbolizer fill="#15bb27" />
+  </Rule>
+  <Rule>
+    <Filter>([NAME_1] = 'Lima')</Filter>
+    <LineSymbolizer stroke="#2929ef" />
+    <PolygonSymbolizer fill="#22cdcd" />
+  </Rule>
+  <Rule>
+    <Filter>([NAME_1] = 'Lambayeque')</Filter>
+    <LineSymbolizer stroke="#2929ef" />
+    <PolygonSymbolizer fill="#136a04" />
+  </Rule>
+  <Rule>
+    <Filter>([NAME_1] = 'La Libertad')</Filter>
+    <LineSymbolizer stroke="#2929ef" />
+    <PolygonSymbolizer fill="#f4f2a6" />
+  </Rule>
+  <Rule>
+    <Filter>([NAME_1] = 'Junín')</Filter>
+    <LineSymbolizer stroke="#2929ef" />
+    <PolygonSymbolizer fill="#f298ba" />
+  </Rule>
+  <Rule>
+    <Filter>([NAME_1] = 'Ica')</Filter>
+    <LineSymbolizer stroke="#2929ef" />
+    <PolygonSymbolizer fill="#c2b509" />
+  </Rule>
+  <Rule>
+    <Filter>([NAME_1] = 'Huancavelica')</Filter>
+    <LineSymbolizer stroke="#2929ef" />
+    <PolygonSymbolizer fill="#35e433" />
+  </Rule>
+  <Rule>
+    <Filter>([NAME_1] = 'Huánuco')</Filter>
+    <LineSymbolizer stroke="#2929ef" />
+    <PolygonSymbolizer fill="#ebb221" />
+  </Rule>
+  <Rule>
+    <Filter>([NAME_1] = 'Cusco')</Filter>
+    <LineSymbolizer stroke="#2929ef" />
+    <PolygonSymbolizer fill="#ef6e43" />
+  </Rule>
+  <Rule>
+    <Filter>([NAME_1] = 'Callao')</Filter>
+    <LineSymbolizer stroke="#2929ef" />
+    <PolygonSymbolizer fill="#f8c805" />
+  </Rule>
+  <Rule>
+    <Filter>([NAME_1] = 'Cajamarca')</Filter>
+    <LineSymbolizer stroke="#2929ef" />
+    <PolygonSymbolizer fill="#6abae2" />
+  </Rule>
+  <Rule>
+    <Filter>([NAME_1] = 'Ayacucho')</Filter>
+    <LineSymbolizer stroke="#2929ef" />
+    <PolygonSymbolizer fill="#f6f5ef" />
+  </Rule>
+  <Rule>
+    <Filter>([NAME_1] = 'Arequipa')</Filter>
+    <LineSymbolizer stroke="#2929ef" />
+    <PolygonSymbolizer fill="#419393" />
+  </Rule>
+  <Rule>
+    <Filter>([NAME_1] = 'Apurímac')</Filter>
+    <LineSymbolizer stroke="#2929ef" />
+    <PolygonSymbolizer fill="#12b2dd" />
+  </Rule>
+  <Rule>
+    <Filter>([NAME_1] = 'Ancash')</Filter>
+    <LineSymbolizer stroke="#2929ef" />
+    <PolygonSymbolizer fill="#a5a22d" />
+  </Rule>
+  <Rule>
+    <Filter>([NAME_1] = 'Amazonas')</Filter>
+    <LineSymbolizer stroke="#2929ef" />
+    <PolygonSymbolizer fill="#f88d0b" />
+  </Rule>
+  <Rule>
+    <LineSymbolizer stroke="#2929ef" />
+  </Rule>
+</Style>
+<Layer name="PER_adm1"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>PER_adm1</StyleName>  </Layer>
+
+<Layer name="departamentos"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+</Map>

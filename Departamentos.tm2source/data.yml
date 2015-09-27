@@ -1,0 +1,48 @@
+_prefs: 
+  disabled: []
+  inspector: false
+  mapid: ediyes.2bee470d
+  rev: s-d2bf0c06
+  saveCenter: true
+attribution: ''
+center: 
+  - -75.0366
+  - -12.5653
+  - 6
+description: ''
+Layer: 
+  - id: departamentos
+    Datasource: 
+      file: "C:\\Users\\ediyes\\Documents\\GitHub\\PeruRegiones\\departamentos.geojson"
+      layer: OGRGeoJSON
+      type: ogr
+    description: ''
+    fields: 
+      admin_level: String
+      gns_classification: String
+      gns_uni: String
+      "is_in:country": String
+      "is_in:country_code": String
+      name: String
+      "name:abbreviation": String
+      "name:en": String
+      "name:es": String
+      "name:pl": String
+      "name:ru": String
+      "name:uk": String
+      place: String
+      population: String
+      ref: String
+      short_name: String
+      source: String
+      wikipedia: String
+      "wikipedia:ay": String
+      "wikipedia:en": String
+      "wikipedia:es": String
+      "wikipedia:qu": String
+    properties: 
+      "buffer-size": 8
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+maxzoom: 7
+minzoom: 0
+name: Departamentos
