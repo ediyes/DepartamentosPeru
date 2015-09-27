@@ -5,7 +5,7 @@
 <Parameters>
   <Parameter name="attribution"><![CDATA[<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>]]></Parameter>
   <Parameter name="bounds">-180,-85.0511,180,85.0511</Parameter>
-  <Parameter name="center">-77.0142,-9.8065,6</Parameter>
+  <Parameter name="center">-73.4546,-8.8091,6</Parameter>
   <Parameter name="format">png8:m=h</Parameter>
   <Parameter name="maxzoom">22</Parameter>
   <Parameter name="minzoom">0</Parameter>
@@ -66,6 +66,11 @@
     <PolygonSymbolizer fill="#15bb27" />
   </Rule>
   <Rule>
+    <Filter>([NAME_1] = 'Lima Province')</Filter>
+    <LineSymbolizer stroke="#2929ef" />
+    <PolygonSymbolizer fill="#22cdcd" />
+  </Rule>
+  <Rule>
     <Filter>([NAME_1] = 'Lima')</Filter>
     <LineSymbolizer stroke="#2929ef" />
     <PolygonSymbolizer fill="#22cdcd" />
@@ -118,7 +123,8 @@
   <Rule>
     <Filter>([NAME_1] = 'Ayacucho')</Filter>
     <LineSymbolizer stroke="#2929ef" />
-    <PolygonSymbolizer fill="#f6f5ef" />
+    <PolygonSymbolizer comp-op="contrast" fill="#f6f5ef" />
+    <PolygonPatternSymbolizer file="foto/ay.jpg" />
   </Rule>
   <Rule>
     <Filter>([NAME_1] = 'Arequipa')</Filter>
@@ -148,8 +154,13 @@
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
     <StyleName>PER_adm1</StyleName>  </Layer>
 
+<Style name="departamentos" filter-mode="first">
+  <Rule>
+    <TextSymbolizer upright="left_only" face-name="Source Sans Pro Italic" fill="#f8f1f1" halo-fill="#050000" halo-radius="1" ><![CDATA[[name]]]></TextSymbolizer>
+  </Rule>
+</Style>
 <Layer name="departamentos"
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
-      </Layer>
+    <StyleName>departamentos</StyleName>  </Layer>
 
 </Map>

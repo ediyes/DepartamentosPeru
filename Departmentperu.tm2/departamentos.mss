@@ -42,8 +42,8 @@
     polygon-fill: #419393;
  }
    [NAME_1="Ayacucho"]{
- //polygon-comp-op: contrast;
- // polygon-pattern-file: url("foto/ay.jpg");
+ polygon-comp-op: contrast;
+ polygon-pattern-file: url("foto/ay.jpg");
    polygon-fill: #f6f5ef;
  }
    [NAME_1="Cajamarca"]{
@@ -56,8 +56,8 @@
     polygon-fill: #f8c805;
  }
    [NAME_1="Cusco"]{
-  // polygon-comp-op: contrast;
-  // polygon-pattern-file: url("foto/machupicchu-peru.png");
+   //polygon-comp-op: contrast;
+  //polygon-pattern-file: url("foto/machupicchu-peru.png");
     polygon-fill: #ef6e43;
  }
    [NAME_1="Huánuco"]{
@@ -91,8 +91,13 @@
    // polygon-pattern-file: url("foto/lim.jpg");
     polygon-fill: #22cdcd;
  }
-     [NAME_1="Loreto"]{
-   //polygon-comp-op: contrast;
+       [NAME_1="Lima Province"]{
+   // polygon-comp-op: contrast;
+   // polygon-pattern-file: url("foto/lim.jpg");
+    polygon-fill: #22cdcd;
+ }
+      [NAME_1="Loreto"]{
+  // polygon-comp-op: contrast;
    //polygon-pattern-file: url("foto/iquit.jpg");
     polygon-fill: #15bb27;
  }
